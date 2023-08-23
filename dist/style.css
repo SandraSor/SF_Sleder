@@ -1,0 +1,135 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+  color: #fff;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+.wrapper .container {
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  margin: auto;
+}
+.wrapper .container .container-info .container-info_area .container-info_title {
+  color: #e3b873;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  width: 255px;
+  position: relative;
+  margin-bottom: 34px;
+}
+.wrapper .container .container-info .container-info_area .container-info_title::after {
+  position: absolute;
+  content: "";
+  background-color: #e3b873;
+  width: 90px;
+  right: 0;
+  height: 1px;
+  bottom: 16px;
+}
+.wrapper .container .container-info .container-info_area .container-info_text {
+  color: #ffffff;
+}
+.wrapper .container .container-info .container-info_area .container-info_about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 80px;
+}
+.wrapper .container .container-info .container-info_area .container-info_about h3 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+.wrapper .container .container-info .container-info_btn {
+  display: flex;
+  position: relative;
+  width: 252px;
+  gap: 30px;
+  margin: 0 auto;
+}
+.wrapper .container .container-info .container-info_btn .prev-btn,
+.wrapper .container .container-info .container-info_btn .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+.wrapper .container .container-info .container-info_btn .prev-btn:hover,
+.wrapper .container .container-info .container-info_btn .next-btn:hover {
+  cursor: pointer;
+}
+.wrapper .container .container-info .container-info_btn .prev-btn {
+  left: -90px;
+}
+.wrapper .container .container-info .container-info_btn .next-btn {
+  right: 90px;
+}
+.wrapper .container .container-info .container-info_btn .container-info_btn-dot {
+  display: flex;
+  gap: 17.5px;
+  list-style-type: none;
+  padding: 0;
+}
+.wrapper .container .container-info .container-info_btn .container-info_btn-dot li {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+.wrapper .container .container-info .container-info_btn .container-info_btn-dot li:hover {
+  cursor: pointer;
+}
+.wrapper .container .container-info .container-info_btn .container-info_btn-dot li.active {
+  opacity: 1;
+}
+.wrapper .container .container-img .text .text-title {
+  display: flex;
+  list-style-type: none;
+  gap: 60.5px;
+}
+.wrapper .container .container-img .text .text-title .list:hover {
+  cursor: pointer;
+  color: #e3b873;
+}
+.wrapper .container .container-img .text .text-title .list.active {
+  border-bottom: 2px solid #e3b873;
+}
+.wrapper .container .container-img .slider-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrapper .container .container-img .slider-container .slider {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.wrapper .container .container-img .slider-container .slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

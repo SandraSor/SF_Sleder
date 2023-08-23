@@ -1,0 +1,15 @@
+{
+	"name": "slider",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile-css": "sass style.scss dist/style.css --watch"
+	},
+	"author": "Sorokina Anastasiya",
+	"license": "ISC",
+	"dependencies": {
+		"sass": "^1.66.1"
+	}
+}
